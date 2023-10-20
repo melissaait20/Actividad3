@@ -1,21 +1,25 @@
 /*1. color general de la lletra negra*/
+/* Usamos la coma para seleccionar la p y tambien el siguiente div*/
 p, div{
     color: black;
 }
 
 /*2. titol nivell 1 fons blanc lletra gris*/
+/* Colocamos el "#" ya que tenemos un selector id */
 #titol-pagina{
     background-color: white;
     color: gray;
 }
 
 /*3. tots els strong en color verd i subratllats*/
+/* Para solucionar el problema hemos tenido que añadir el elemento !important al final*/
 strong{
     color: green !important;
     text-decoration: underline !important;
 }
 
 /*4. enllaços del paràgraf2 en italica*/
+/* Colocamos el punto ya que tenemos un selector class */
 .paragraf2 > a{
     font-style: italic;
 }
@@ -27,4 +31,4 @@ footer{
 }
 
 /*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
-
+/* Si,la solución esta en el apartado 3*/
